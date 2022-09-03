@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+}
+::-webkit-scrollbar{
+    width: 1.5em;
+}
+::-webkit-scrollbar-track{
+    background: #24252a;
+    border-radius: 100vw;
+    margin-block: .5em;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(red,blue);
+    border: 0.25em solid #24252a;
+    border-radius: 100vw;
+}
+
+li,a,button{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    margin-left: 35px;
+}
+body{
+    color: #edf0f1;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 40px 10%;
+}
+.logo{
+    height: 90px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+#disnone{
+    display: none;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,126,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    color: #edf0f1;
+}
+h1{
+    color: #edf0f1;
+    transition: all 0.3s ease 0s;
+}
+.aboutme{
+    margin-right: 250px;
+    margin-left: 250px;
+}
+.about{
+    height: 250px;
+    border-radius: 25px;
+}
+h2{
+    padding-top: 35px;
+}
+#text{
+    text-align: justify;
+}
+#social_{
+    margin-top: 200px;
+}
+.social{
+    height: 100px;
+    border-radius: 180px;
+    margin: 50px;
+    cursor: pointer;
+    text-align: center;
+}
+#git{
+    margin-right: 80px;
+}
+#economia{
+    margin-top:200px;
+}
+.economy{
+    margin-top: 25px;
+    border-radius: 35px;
+    height: 150px;
+    cursor: pointer;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+#Cybersecurity{
+ margin-top: 200px;
+}
+.eco1{
+    text-align: center;
+    display: flex;
+    margin-right: 0px;
+    margin-left: 40px;
+}
+#png1{
+    margin-left: 100px;
+    margin-right: 180px;
+}
+#png2{
+    margin-right: 180px;
+}
+#textflex2{
+    margin: 50px;
+    display: flex;
+}    
+#a:hover{
+    color: #24252a;
+    background-color: #edf0f1;
+    transition: all 0.3s ease 0s;
+    border-radius: 25px;
+}
+#b:hover{
+    color: #24252a;
+    background-color: #edf0f1;
+    transition: all 0.3s ease 0s;
+    border-radius: 25px;
+}
+#c:hover{
+    color: #24252a;
+    background-color: #edf0f1;
+    transition: all 0.3s ease 0s;
+    border-radius: 25px;
+}
+#a{
+    border:  2px solid #24252a;
+}
+#b{
+    border:  2px solid #24252a;
+}
+#c{
+    border:  2px solid #24252a;
+}
+#footer{
+    margin-top: 350px;
+    color: #24252a;
+}
+#Curiosità{
+    margin-top: 200px;
+    margin-bottom: 250px;
+}
+
+@media only screen and (max-width:1824px){
+    #png1{
+        margin-right:150px;
+    }
+    #png2{
+        margin-right: 140px;
+    }
+}
+
+@media only screen and (max-width:1665px){
+    #png1{
+        margin-right:120px;
+        margin-left: 50px;
+    }
+    #png2{
+        margin-right: 100px;
+    }
+}
+
+@media only screen and (max-width:1540px){
+    #png1{
+        margin-right:70px;
+        margin-left: 40px;
+    }
+    #png2{
+        margin-right: 50px;
+    }
+    .social{
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width:1376px){
+    #png1{
+        margin-right:40px;
+        margin-left: 40px;
+        height: 100px;
+    }
+    #png2{
+        margin-right: 50px;
+        height: 100px;
+    }
+    #png3{
+        height: 100px;
+    }
+
+    .social{
+        height: 70px;
+        margin: 10px;
+    }
+    #twi{
+        margin-left:35px;
+    }
+}
+
+@media only screen and (max-width:1302px){
+    .nav_links {
+        width: 100%;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+        margin-right: 40px;
+    }
+    .nav_links li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .about{
+        height: 100px;
+    }
+   
+    .logo{
+        display: block;
+    }
+    #disnone{
+       display: block;
+       cursor: pointer;
+    }
+    #disnone id{
+        width: 32px;
+        height: 2px;
+        background: #fff;
+        margin: 8px;
+    }
+    #grazie{
+        display: none;
+    }
+    .social{
+        margin: 0px;
+        padding: 0px;
+        height: 70px;
+    }
+    div{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #menuList{
+        overflow: hidden;
+        transition: 0.5s;
+        margin-top: 55px;
+    }
+    .economy{
+        height: 100px;
+    }
+    .eco{
+        display: none;
+    }
+    #png1{
+        margin-right:250px;
+        margin-left: 150px;
+        height: 100px;
+    }
+    #png2{
+        margin-right: 250px;
+        height: 100px;
+    }
+    #png3{
+        height: 100px;
+    }
+    #git{
+        margin-right: 25px;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    #textmargin{
+        margin-top: 70px;
+    }
+    #social_{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #head{
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width:1000px){
+    #png1{
+        margin-right:200px;
+        margin-left: 100px;
+        height: 100px;
+    }
+    #png2{
+        margin-right: 200px;
+        height: 100px;
+    }
+    #png3{
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width:865px){
+    #png1{
+        margin-right:150px;
+        margin-left: 80px;
+        height: 100px;
+    }
+    #png2{
+        margin-right: 150px;
+        height: 100px;
+    }
+    #png3{
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width:720px){
+    #png1{
+        margin-right:100px;
+        margin-left: 70px;
+        height: 100px;
+    }
+    #png2{
+        margin-right: 100px;
+        height: 100px;
+    }
+    #png3{
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width:605px){
+    #png1{
+        margin-right:60px;
+        margin-left: 30px;
+        height: 100px;
+    }
+    #png2{
+        margin-right: 60px;
+        height: 100px;
+    }
+    #png3{
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width:605px){
+    #png1{
+        margin-right:70px;
+        margin-left: 30px;
+        height: 100px;
+    }
+    #png2{
+        margin-right: 70px;
+        height: 100px;
+    }
+    #png3{
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width:482px){
+    #png1{
+        margin-right:50px;
+        margin-left: 30px;
+        height: 60px;
+    }
+    #png2{
+        margin-right: 50px;
+        height: 60px;
+    }
+    #png3{
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width:385px){
+    #png1{
+        margin-right:30px;
+        margin-left: 30px;
+        height: 60px;
+    }
+    #png2{
+        margin-right: 30px;
+        height: 60px;
+    }
+    #png3{
+        height: 60px;
+    }
+    .social{
+        height: 50px;
+    }
+    #git{
+        margin-right: 60px;
+    }
+}
+
+@media only screen and (max-width:385px){
+    #png1{
+        margin-right:30px;
+        margin-left: 0px;
+        height: 60px;
+    }
+    #png2{
+        margin-right: 30px;
+        height: 60px;
+    }
+    #png3{
+        height: 60px;
+    }
+    #textflex2{
+        margin-left: 20px;
+    }
+}    
+@media only screen and (max-width:360px){
+    .social{
+        height: 35px;
+    }
+
+}
+
+@media only screen and (max-width:313px){
+    .social{
+        height: 15px;
+    }
+    #imaginisocial{
+        margin: 0px;
+        padding: 0px;
+    }
+
+}
+
+@media only screen and (max-width:215px){
+    .social{
+        flex-wrap: wrap;
+    }
+}
